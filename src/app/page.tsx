@@ -1,7 +1,20 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+console.log('test123');
+
 export default function Home() {
+
+  console.log('test123');
+  console.log('test12345678');
+
+  setInterval(() => {
+    
+    console.log('test12345');
+
+  }, 3000);
+
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>

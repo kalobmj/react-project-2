@@ -7,6 +7,12 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+// setInterval(() => {
+  
+//   console.log('testing interval');
+
+// }, 5000);
+
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
